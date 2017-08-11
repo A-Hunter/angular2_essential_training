@@ -1,3 +1,5 @@
+// This is the root module
+
 // importing functionnalities from modules
 // ngModule decorator is used in order to define imports, declarations, bootstrapping options
 // BrowserModule is required by default for any web based angular application
