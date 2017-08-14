@@ -20,5 +20,15 @@ export class AppComponent  {
    name: string = 'Angular'; 
    subject:string = 'AngularJS 2';
    bool:boolean = true;
+   list:any[] = [{
+      "id":1,
+      "name":"one"
+      },{
+        "id":"2",
+        "name":"two"
+      },{
+        "id":"3",
+        "name":"three"
+      }];
 }
 
