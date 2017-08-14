@@ -6,3 +6,9 @@
         <li>{{lst.name}}</li>
     </ul>
 </div>
+<div *ngFor = 'let lst of images'>
+    <ul>
+        <li>{{lst.id}}</li>
+        <img [src] = 'lst.url'>
+    </ul>
+</div>

@@ -29,9 +29,10 @@ export class AppComponent  {
       },{
         "id":"2",
         "name":"two"
-      },{
+      }];
+    images:any[] = [{
         "id":"3",
-        "name":"three"
+        "url":"app/images/3.jpg"
       }];
 }
 
