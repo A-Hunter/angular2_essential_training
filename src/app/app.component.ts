@@ -17,6 +17,9 @@ export class AppCustomComponent{
 }
 */
 export class AppComponent  {
+
+  constructor(@Environment(‘test’ private sub:string){})
+
    name: string = 'Angular'; 
    subject:string = 'AngularJS 2';
    bool:boolean = true;
